@@ -1,4 +1,4 @@
-package cloud.simple.conf;
+package com.wills.conf;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

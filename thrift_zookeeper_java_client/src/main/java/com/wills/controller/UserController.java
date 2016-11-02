@@ -1,12 +1,13 @@
-package cloud.simple.controller;
+package com.wills.controller;
 
 import org.apache.thrift.TException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import cloud.simple.interfaces.*;
-import cloud.simple.provider.UserServiceProvider;
+
+import com.wills.interfaces.*;
+import com.wills.provider.UserServiceProvider;
 
 @Controller
 public class UserController {

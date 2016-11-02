@@ -86,8 +86,8 @@
 			<version>3.1</version>
 		</dependency>
 		<dependency>
-			<groupId>cloud.simple</groupId>
-			<artifactId>cloud-thrift-interface</artifactId>
+			<groupId>com.wills</groupId>
+			<artifactId>thrift_zookeeper_java_interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- zookeeper -->

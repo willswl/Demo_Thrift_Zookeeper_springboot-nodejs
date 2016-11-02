@@ -1,12 +1,12 @@
-package cloud.simple;
+package com.wills;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CloudClientApplication {
+public class CloudServerApplication{
 
 	public static void main(String[] args) {
-		SpringApplication.run(CloudClientApplication.class, args);
+		SpringApplication.run(CloudServerApplication.class, args);
 	}
 }

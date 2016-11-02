@@ -1,4 +1,4 @@
-namespace java cloud.simple.service
+namespace java com.wills.service
 
 struct UserDto {
   1: i32 id

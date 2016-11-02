@@ -1,4 +1,4 @@
-package cloud.simple.conf;
+package com.wills.conf;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -12,8 +12,8 @@ import org.apache.thrift.transport.TServerTransport;
 import org.apache.thrift.transport.TTransportException;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import cloud.simple.interfaces.*;
-import cloud.simple.service.UserServiceImpl;
+import com.wills.interfaces.*;
+import com.wills.service.UserServiceImpl;
 
 @Configuration
 public class ThriftConfig {

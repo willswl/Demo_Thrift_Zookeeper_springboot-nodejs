@@ -1,4 +1,4 @@
-package cloud.simple.conf;
+package com.wills.conf;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,7 +18,7 @@ import org.apache.thrift.transport.TTransportException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
-import cloud.simple.interfaces.UserService;
+import com.wills.interfaces.UserService;
 
 
 @Configuration

@@ -1,8 +1,8 @@
-package cloud.simple.service;
+package com.wills.service;
 
 import org.apache.thrift.TException;
 
-import cloud.simple.interfaces.*;
+import com.wills.interfaces.*;
 
 public class UserServiceImpl implements UserService.Iface{
 

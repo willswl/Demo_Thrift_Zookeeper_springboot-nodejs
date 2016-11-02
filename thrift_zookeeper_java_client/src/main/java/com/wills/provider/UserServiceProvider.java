@@ -1,12 +1,12 @@
-package cloud.simple.provider;
+package com.wills.provider;
 
 import java.util.Map;
 import java.util.Random;
 
 import org.springframework.stereotype.Component;
 
-import cloud.simple.conf.ZooKeeperConfig;
-import cloud.simple.interfaces.UserService;
+import com.wills.conf.ZooKeeperConfig;
+import com.wills.interfaces.UserService;
 
 @Component
 public class UserServiceProvider {
