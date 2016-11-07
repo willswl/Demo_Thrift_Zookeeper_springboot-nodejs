@@ -1,0 +1,11 @@
+{
+  "name": "thrift_zookeeper_node_client",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./userserver.js"
+  },
+  "dependencies": {
+    "thrift": "^0.9.3"
+  }
+}
