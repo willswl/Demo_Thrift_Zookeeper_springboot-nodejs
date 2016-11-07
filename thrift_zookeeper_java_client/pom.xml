@@ -66,10 +66,15 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.wills</groupId>
 			<artifactId>thrift_zookeeper_java_interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency> -->
+		<dependency>
+			<groupId>org.apache.thrift</groupId>
+			<artifactId>libthrift</artifactId>
+			<version>0.9.1</version>
 		</dependency>
 		<!-- zookeeper -->
 		<dependency>
